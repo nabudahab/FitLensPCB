@@ -2313,176 +2313,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:Conn_Coaxial"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0.254 3.048 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_Coaxial"
-				(at 2.921 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "BNC SMA SMB SMC LEMO coaxial connector CINCH RCA MCX MMCX U.FL UMRF"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "*BNC* *SMA* *SMB* *SMC* *Cinch* *LEMO* *UMRF* *MCX* *U.FL*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_Coaxial_0_1"
-				(polyline
-					(pts
-						(xy -2.54 0) (xy -0.508 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 1.778 0)
-					(mid 0.222 -1.8079)
-					(end -1.778 -0.508)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -1.778 0.508)
-					(mid 0.2221 1.8084)
-					(end 1.778 0)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 0)
-					(radius 0.508)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.54) (xy 0 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Conn_Coaxial_1_1"
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "In"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 2.54)
-					(name "Ext"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector:USB_C_Receptacle_USB2.0_16P"
 			(pin_names
 				(offset 1.016)
@@ -12146,6 +11976,18 @@
 		(uuid 1611cec5-071e-4e4a-9432-58d0072d6862)
 	)
 	(rectangle
+		(start 410.21 312.42)
+		(end 428.625 353.695)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 1fd4fc91-adb4-4f60-b2f0-a5ac843f40c0)
+	)
+	(rectangle
 		(start 19.05 132.08)
 		(end 69.85 180.34)
 		(stroke
@@ -12180,6 +12022,18 @@
 			(type none)
 		)
 		(uuid 3dfc17cd-1a18-4502-a457-1e60d3652a0b)
+	)
+	(rectangle
+		(start 359.41 308.61)
+		(end 405.13 349.885)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 3eac9f75-1283-40ed-a42e-f623a1dc25f1)
 	)
 	(rectangle
 		(start 19.05 73.66)
@@ -12291,18 +12145,6 @@
 		(uuid 8b556bcb-e361-4f8e-8ab8-fd920f708735)
 	)
 	(rectangle
-		(start 278.765 42.545)
-		(end 312.42 59.055)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 8c9239cc-5849-4c04-9b3d-9cb8e9eef458)
-	)
-	(rectangle
 		(start 321.31 31.75)
 		(end 427.99 71.12)
 		(stroke
@@ -12361,6 +12203,18 @@
 			(type none)
 		)
 		(uuid d2da054b-826c-4642-89d9-5ca26b2df7ec)
+	)
+	(rectangle
+		(start 332.74 342.9)
+		(end 351.155 384.175)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid d82576dd-e347-46a1-a733-857a06d7d603)
 	)
 	(rectangle
 		(start 15.875 295.91)
@@ -12455,17 +12309,6 @@
 		)
 		(uuid "098f5538-b55d-4ee9-86f4-e819dec56739")
 	)
-	(text "u.fl antenna\n(place as close to RF pin as possible)"
-		(exclude_from_sim no)
-		(at 278.892 42.164 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0ab20400-c70f-4e9a-b9f3-64f1e88d6720")
-	)
 	(text "Debug Headers"
 		(exclude_from_sim no)
 		(at 505.46 25.654 0)
@@ -12528,6 +12371,16 @@
 			(justify left bottom)
 		)
 		(uuid "49ead97a-a374-452a-a351-820563a0920f")
+	)
+	(text "VDD Decoupling Caps"
+		(exclude_from_sim no)
+		(at 370.078 307.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5209b5b5-5a50-47fa-8b48-3e43c3e833cd")
 	)
 	(text "When USB is connected, there is no point in using the \nbattery, so it disconnects from the circuit and VBUS used."
 		(exclude_from_sim no)
@@ -12700,6 +12553,16 @@
 		)
 		(uuid "a334b776-fe44-4875-893f-fbe0d5686a49")
 	)
+	(text "VDDRF Decoupling Caps"
+		(exclude_from_sim no)
+		(at 341.376 341.884 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a51ed45c-ffd9-4278-8046-bceb8b851873")
+	)
 	(text "Display Header"
 		(exclude_from_sim no)
 		(at 192.786 169.418 0)
@@ -12762,6 +12625,16 @@
 			(justify left bottom)
 		)
 		(uuid "ca72b486-2130-482b-a40d-9547d63fbbee")
+	)
+	(text "VDDA Decoupling Caps"
+		(exclude_from_sim no)
+		(at 418.846 311.404 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d2229c18-32ce-4ea1-a129-17813e680315")
 	)
 	(text "Flash Memory"
 		(exclude_from_sim no)
@@ -14848,16 +14721,6 @@
 			(type default)
 		)
 		(uuid "76d91c23-8413-4f08-9e0d-458f1b323a1e")
-	)
-	(wire
-		(pts
-			(xy 280.67 48.26) (xy 289.56 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7856f44c-9598-413e-826a-d0d034ed7fa8")
 	)
 	(wire
 		(pts
@@ -17039,16 +16902,6 @@
 		)
 		(uuid "44687a7e-ede2-483c-a6b2-6a54a5d624f7")
 	)
-	(label "RF_LINE"
-		(at 280.67 48.26 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "452f9510-1ee1-435c-bb24-fcac9a3be85e")
-	)
 	(label "USB_DP"
 		(at 125.73 180.34 0)
 		(effects
@@ -17569,7 +17422,7 @@
 		)
 		(uuid "ebd48822-95b9-41a6-bb1a-cdd937512178")
 	)
-	(label "I2C1_SCL"
+	(label "I2C_SCL"
 		(at 266.7 179.07 0)
 		(effects
 			(font
@@ -18383,7 +18236,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 31.4452 102.87 0)
 			(effects
 				(font
@@ -19163,6 +19016,70 @@
 		)
 	)
 	(symbol
+		(lib_id "custom_power_symbols:+VCC_OUT")
+		(at 340.36 370.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "17fa910a-547d-4af6-93bc-b0fc5585fc65")
+		(property "Reference" "#PWR0124"
+			(at 340.36 374.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+VCC_OUT"
+			(at 340.36 367.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 340.36 370.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 340.36 370.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 340.36 370.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "805972ae-112b-4c10-8202-dbb7aea965a6")
+		)
+		(instances
+			(project "FitLensPCB"
+				(path "/4731aa35-71ac-4e45-b804-b66eeaa0e252"
+					(reference "#PWR0124")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_ARM_JTAG_SWD_10")
 		(at 529.59 110.49 0)
 		(unit 1)
@@ -19251,6 +19168,76 @@
 			(project "FitLensPCB"
 				(path "/4731aa35-71ac-4e45-b804-b66eeaa0e252"
 					(reference "J15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 340.36 353.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "190a6ef0-6bbc-4f8d-a57a-73b2786b838c")
+		(property "Reference" "C30"
+			(at 344.17 351.7899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 344.17 354.3299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+			(at 341.3252 356.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 340.36 353.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 340.36 353.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3c474b02-bd09-40d2-a9a8-ef578946e304")
+		)
+		(pin "2"
+			(uuid "5227e4c6-4cb4-44ef-b8a4-292d8be4687f")
+		)
+		(instances
+			(project "FitLensPCB"
+				(path "/4731aa35-71ac-4e45-b804-b66eeaa0e252"
+					(reference "C30")
 					(unit 1)
 				)
 			)
@@ -19600,7 +19587,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 197.8152 90.17 0)
 			(effects
 				(font
@@ -19643,7 +19630,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 313.69 318.77 0)
+		(at 365.76 340.36 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19652,7 +19639,7 @@
 		(fields_autoplaced yes)
 		(uuid "1c46f13b-4dea-4892-b726-ecd8ec4f116c")
 		(property "Reference" "C22"
-			(at 317.5 317.4999 0)
+			(at 369.57 339.0899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19661,7 +19648,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 317.5 320.0399 0)
+			(at 369.57 341.6299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19669,8 +19656,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 314.6552 322.58 0)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+			(at 366.7252 344.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19679,7 +19666,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 313.69 318.77 0)
+			(at 365.76 340.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19688,7 +19675,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 313.69 318.77 0)
+			(at 365.76 340.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19713,7 +19700,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 313.69 322.58 0)
+		(at 365.76 344.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19721,7 +19708,7 @@
 		(dnp no)
 		(uuid "1c945dad-8853-40d4-aa3c-88d289d346b6")
 		(property "Reference" "#PWR0106"
-			(at 313.69 328.93 0)
+			(at 365.76 350.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19730,7 +19717,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 313.69 326.39 0)
+			(at 365.76 347.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19738,7 +19725,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 313.69 322.58 0)
+			(at 365.76 344.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19747,7 +19734,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 313.69 322.58 0)
+			(at 365.76 344.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19756,7 +19743,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 313.69 322.58 0)
+			(at 365.76 344.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19777,7 +19764,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 327.66 281.94 0)
+		(at 379.73 322.58 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19785,7 +19772,7 @@
 		(dnp no)
 		(uuid "1cf9f897-1d3d-4ff2-9866-2bf6ca76ed8b")
 		(property "Reference" "#PWR050"
-			(at 327.66 288.29 0)
+			(at 379.73 328.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19794,7 +19781,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 327.66 285.75 0)
+			(at 379.73 326.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19802,7 +19789,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 327.66 281.94 0)
+			(at 379.73 322.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19811,7 +19798,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 327.66 281.94 0)
+			(at 379.73 322.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19820,7 +19807,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 327.66 281.94 0)
+			(at 379.73 322.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19931,7 +19918,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_Amphenol_12401548E4-2A"
 			(at 95.25 160.02 0)
 			(effects
 				(font
@@ -20046,7 +20033,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 370.5352 143.51 0)
 			(effects
 				(font
@@ -20106,7 +20093,7 @@
 				)
 			)
 		)
-		(property "Value" "SB120"
+		(property "Value" "SS12"
 			(at 398.4625 43.18 0)
 			(effects
 				(font
@@ -20114,7 +20101,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 398.78 51.435 0)
 			(effects
 				(font
@@ -20315,7 +20302,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric_Pad0.57x0.30mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 20.0152 318.77 0)
 			(effects
 				(font
@@ -20713,7 +20700,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 92.4052 279.4 0)
 			(effects
 				(font
@@ -21040,6 +21027,70 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 417.83 347.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "39198fa9-b499-4551-ba21-f7a0cd7dc496")
+		(property "Reference" "#PWR0107"
+			(at 417.83 354.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 417.83 351.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 417.83 347.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 417.83 347.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 417.83 347.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f333ebce-8e45-420d-bbda-8795c7e7a0ec")
+		)
+		(instances
+			(project "FitLensPCB"
+				(path "/4731aa35-71ac-4e45-b804-b66eeaa0e252"
+					(reference "#PWR0107")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x04_Socket")
 		(at 219.71 180.34 0)
 		(unit 1)
@@ -21142,7 +21193,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 187.6552 90.17 0)
 			(effects
 				(font
@@ -21575,6 +21626,70 @@
 		)
 	)
 	(symbol
+		(lib_id "custom_power_symbols:+VCC_OUT")
+		(at 393.7 326.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4118f22c-e4e4-4221-bfa9-ce1a39a293e7")
+		(property "Reference" "#PWR0128"
+			(at 393.7 330.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+VCC_OUT"
+			(at 393.7 322.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 393.7 326.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 393.7 326.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 393.7 326.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d182bdbc-4a04-4884-9b52-9eb9c3ed9a3a")
+		)
+		(instances
+			(project "FitLensPCB"
+				(path "/4731aa35-71ac-4e45-b804-b66eeaa0e252"
+					(reference "#PWR0128")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:-BATT")
 		(at 38.1 172.72 0)
 		(mirror x)
@@ -21915,6 +22030,70 @@
 		)
 	)
 	(symbol
+		(lib_id "custom_power_symbols:+VCC_OUT")
+		(at 340.36 349.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "45cbdd3b-d24f-430e-8368-36c89d5cd0a2")
+		(property "Reference" "#PWR0108"
+			(at 340.36 353.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+VCC_OUT"
+			(at 340.36 345.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 340.36 349.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 340.36 349.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 340.36 349.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "25ce959e-d29c-4cdb-9c55-0a427b586293")
+		)
+		(instances
+			(project "FitLensPCB"
+				(path "/4731aa35-71ac-4e45-b804-b66eeaa0e252"
+					(reference "#PWR0108")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+BATT")
 		(at 92.71 35.56 0)
 		(unit 1)
@@ -22055,7 +22234,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 327.66 297.18 0)
+		(at 381 340.36 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22064,7 +22243,7 @@
 		(fields_autoplaced yes)
 		(uuid "48a8e114-176d-4c78-abd1-a6bf5286fac6")
 		(property "Reference" "C13"
-			(at 331.47 295.9099 0)
+			(at 384.81 339.0899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22073,7 +22252,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 331.47 298.4499 0)
+			(at 384.81 341.6299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22081,8 +22260,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 328.6252 300.99 0)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+			(at 381.9652 344.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22091,7 +22270,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 327.66 297.18 0)
+			(at 381 340.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22100,7 +22279,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 327.66 297.18 0)
+			(at 381 340.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22151,7 +22330,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 425.1452 210.82 0)
 			(effects
 				(font
@@ -22285,7 +22464,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric_Pad0.57x0.30mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 30.1752 325.12 0)
 			(effects
 				(font
@@ -22805,7 +22984,7 @@
 	)
 	(symbol
 		(lib_id "custom_power_symbols:+VCC_OUT")
-		(at 313.69 314.96 0)
+		(at 365.76 336.55 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22813,7 +22992,7 @@
 		(dnp no)
 		(uuid "549fb699-d17c-4c34-9689-f6575b187cf0")
 		(property "Reference" "#PWR089"
-			(at 313.69 318.77 0)
+			(at 365.76 340.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22822,7 +23001,7 @@
 			)
 		)
 		(property "Value" "+VCC_OUT"
-			(at 313.69 311.15 0)
+			(at 365.76 332.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22830,7 +23009,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 313.69 314.96 0)
+			(at 365.76 336.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22839,7 +23018,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 313.69 314.96 0)
+			(at 365.76 336.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22848,7 +23027,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 313.69 314.96 0)
+			(at 365.76 336.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23125,7 +23304,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 41.6052 102.87 0)
 			(effects
 				(font
@@ -23798,7 +23977,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 327.66 300.99 0)
+		(at 381 344.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23806,7 +23985,7 @@
 		(dnp no)
 		(uuid "63c5f106-6180-4d1a-8089-7599a1c70ac2")
 		(property "Reference" "#PWR051"
-			(at 327.66 307.34 0)
+			(at 381 350.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23815,7 +23994,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 327.66 304.8 0)
+			(at 381 347.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23823,7 +24002,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 327.66 300.99 0)
+			(at 381 344.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23832,7 +24011,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 327.66 300.99 0)
+			(at 381 344.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23841,7 +24020,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 327.66 300.99 0)
+			(at 381 344.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23862,7 +24041,7 @@
 	)
 	(symbol
 		(lib_id "custom_power_symbols:+VCC_OUT")
-		(at 327.66 274.32 0)
+		(at 379.73 314.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23870,7 +24049,7 @@
 		(dnp no)
 		(uuid "659d14d4-7412-417d-9d20-a510a0b6beee")
 		(property "Reference" "#PWR052"
-			(at 327.66 278.13 0)
+			(at 379.73 318.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23879,7 +24058,7 @@
 			)
 		)
 		(property "Value" "+VCC_OUT"
-			(at 327.66 270.51 0)
+			(at 379.73 311.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23887,7 +24066,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 327.66 274.32 0)
+			(at 379.73 314.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23896,7 +24075,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 327.66 274.32 0)
+			(at 379.73 314.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23905,7 +24084,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 327.66 274.32 0)
+			(at 379.73 314.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23919,6 +24098,70 @@
 			(project "FitLensPCB"
 				(path "/4731aa35-71ac-4e45-b804-b66eeaa0e252"
 					(reference "#PWR052")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 417.83 326.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6630e1a8-c009-424e-86ff-95230f8f8f17")
+		(property "Reference" "#PWR088"
+			(at 417.83 332.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 417.83 330.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 417.83 326.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 417.83 326.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 417.83 326.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "eee2ee34-8232-4b13-9753-ca53c0c5b2d0")
+		)
+		(instances
+			(project "FitLensPCB"
+				(path "/4731aa35-71ac-4e45-b804-b66eeaa0e252"
+					(reference "#PWR088")
 					(unit 1)
 				)
 			)
@@ -24122,7 +24365,7 @@
 	)
 	(symbol
 		(lib_id "custom_power_symbols:+VCC_OUT")
-		(at 327.66 293.37 0)
+		(at 381 336.55 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24130,7 +24373,7 @@
 		(dnp no)
 		(uuid "6b0bc17b-6928-4eb8-a356-b9191509aa5a")
 		(property "Reference" "#PWR056"
-			(at 327.66 297.18 0)
+			(at 381 340.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24139,7 +24382,7 @@
 			)
 		)
 		(property "Value" "+VCC_OUT"
-			(at 327.66 289.56 0)
+			(at 381 332.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24147,7 +24390,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 327.66 293.37 0)
+			(at 381 336.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24156,7 +24399,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 327.66 293.37 0)
+			(at 381 336.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24165,7 +24408,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 327.66 293.37 0)
+			(at 381 336.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24987,7 +25230,7 @@
 				)
 			)
 		)
-		(property "Value" "SB120"
+		(property "Value" "SS12"
 			(at 398.78 66.802 0)
 			(effects
 				(font
@@ -24995,7 +25238,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 398.78 65.405 0)
 			(effects
 				(font
@@ -25336,7 +25579,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 370.5352 194.31 0)
 			(effects
 				(font
@@ -25406,7 +25649,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 369.2652 214.63 0)
 			(effects
 				(font
@@ -25475,7 +25718,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 88.5952 106.68 0)
 			(effects
 				(font
@@ -25703,6 +25946,75 @@
 			(project "FitLensPCB"
 				(path "/4731aa35-71ac-4e45-b804-b66eeaa0e252"
 					(reference "#PWR093")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 393.7 330.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "837dd265-74b5-452c-b7d1-620c00f2c7b8")
+		(property "Reference" "C34"
+			(at 397.51 328.9299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7uF"
+			(at 397.764 331.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+			(at 394.6652 334.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 393.7 330.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 393.7 330.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c68fc7fd-8abf-4d20-9d79-ebf694ea1c48")
+		)
+		(pin "2"
+			(uuid "bc64c90f-1b50-4907-8e92-484cfdc975d6")
+		)
+		(instances
+			(project "FitLensPCB"
+				(path "/4731aa35-71ac-4e45-b804-b66eeaa0e252"
+					(reference "C34")
 					(unit 1)
 				)
 			)
@@ -25942,7 +26254,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 177.4952 90.17 0)
 			(effects
 				(font
@@ -26309,70 +26621,6 @@
 		)
 	)
 	(symbol
-		(lib_id "custom_power_symbols:+VCC_OUT")
-		(at 328.93 314.96 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "90658c57-d3da-41d7-84b9-9b24968982ec")
-		(property "Reference" "#PWR087"
-			(at 328.93 318.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+VCC_OUT"
-			(at 328.93 311.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 328.93 314.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 328.93 314.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 328.93 314.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3ce74793-817c-4336-897d-657e4b762a38")
-		)
-		(instances
-			(project "FitLensPCB"
-				(path "/4731aa35-71ac-4e45-b804-b66eeaa0e252"
-					(reference "#PWR087")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 36.83 40.64 0)
 		(unit 1)
@@ -26431,6 +26679,70 @@
 			(project "FitLensPCB"
 				(path "/4731aa35-71ac-4e45-b804-b66eeaa0e252"
 					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "custom_power_symbols:+VCC_OUT")
+		(at 417.83 318.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "96bbfb10-c689-4c49-be39-e31f34212a14")
+		(property "Reference" "#PWR087"
+			(at 417.83 322.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+VCC_OUT"
+			(at 417.83 314.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 417.83 318.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 417.83 318.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 417.83 318.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7fd06bd6-05e5-43e7-b3ea-e2130ddd4084")
+		)
+		(instances
+			(project "FitLensPCB"
+				(path "/4731aa35-71ac-4e45-b804-b66eeaa0e252"
+					(reference "#PWR087")
 					(unit 1)
 				)
 			)
@@ -26917,7 +27229,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 149.5552 40.64 0)
 			(effects
 				(font
@@ -27023,76 +27335,6 @@
 			(project ""
 				(path "/4731aa35-71ac-4e45-b804-b66eeaa0e252"
 					(reference "Y2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_Coaxial")
-		(at 294.64 48.26 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a1501da3-af8a-4ada-9e12-ae1923a00970")
-		(property "Reference" "J14"
-			(at 298.45 47.2831 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_Coaxial"
-			(at 298.45 49.8231 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_Coaxial:U.FL_Hirose_U.FL-R-SMT-1_Vertical"
-			(at 294.64 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 294.64 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-			(at 294.64 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "d823ea90-ae1b-4d68-a318-5a1049b21bca")
-		)
-		(pin "1"
-			(uuid "cba9b045-cbdc-4bbd-a910-974faf5c25fe")
-		)
-		(instances
-			(project "FitLensPCB"
-				(path "/4731aa35-71ac-4e45-b804-b66eeaa0e252"
-					(reference "J14")
 					(unit 1)
 				)
 			)
@@ -28232,7 +28474,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 383.2352 270.51 0)
 			(effects
 				(font
@@ -28435,70 +28677,6 @@
 			(project "FitLensPCB"
 				(path "/4731aa35-71ac-4e45-b804-b66eeaa0e252"
 					(reference "H4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 300.99 322.58 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ad41e0e8-f558-4fa2-a791-455d428f8436")
-		(property "Reference" "#PWR0108"
-			(at 300.99 328.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 300.99 326.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 300.99 322.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 300.99 322.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 300.99 322.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ef4cb336-a377-4cba-a46d-b47291d22343")
-		)
-		(instances
-			(project "FitLensPCB"
-				(path "/4731aa35-71ac-4e45-b804-b66eeaa0e252"
-					(reference "#PWR0108")
 					(unit 1)
 				)
 			)
@@ -28894,7 +29072,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 383.2352 243.84 0)
 			(effects
 				(font
@@ -29003,6 +29181,70 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 340.36 356.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b35067de-9866-4dc2-b02d-397b8a824d24")
+		(property "Reference" "#PWR0123"
+			(at 340.36 363.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 340.36 360.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 340.36 356.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 340.36 356.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 340.36 356.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "06ed3240-93f0-4a82-8ea2-1096257b7856")
+		)
+		(instances
+			(project "FitLensPCB"
+				(path "/4731aa35-71ac-4e45-b804-b66eeaa0e252"
+					(reference "#PWR0123")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 166.37 86.36 0)
 		(unit 1)
@@ -29029,7 +29271,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 167.3352 90.17 0)
 			(effects
 				(font
@@ -29267,6 +29509,140 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 340.36 378.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b8befad9-1834-4e30-bd64-89521931bd2c")
+		(property "Reference" "#PWR0125"
+			(at 340.36 384.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 340.36 382.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 340.36 378.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 340.36 378.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 340.36 378.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3e1f31ab-a0f0-4fd5-9a10-edae1692df9c")
+		)
+		(instances
+			(project "FitLensPCB"
+				(path "/4731aa35-71ac-4e45-b804-b66eeaa0e252"
+					(reference "#PWR0125")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 340.36 374.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b9b274d7-e664-43c1-a533-40fc5da50708")
+		(property "Reference" "C31"
+			(at 344.17 373.3799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2.2uF"
+			(at 344.17 375.9199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+			(at 341.3252 378.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 340.36 374.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 340.36 374.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d9fefeab-fb95-4c37-a08b-49447720361a")
+		)
+		(pin "2"
+			(uuid "c4b82c1f-839b-4825-ba63-27a003da7774")
+		)
+		(instances
+			(project "FitLensPCB"
+				(path "/4731aa35-71ac-4e45-b804-b66eeaa0e252"
+					(reference "C31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "custom_power_symbols:+VCC_OUT")
 		(at 91.44 271.78 0)
 		(unit 1)
@@ -29325,70 +29701,6 @@
 			(project "FitLensPCB"
 				(path "/4731aa35-71ac-4e45-b804-b66eeaa0e252"
 					(reference "#PWR084")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "custom_power_symbols:+VCC_OUT")
-		(at 481.33 326.39 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ba6f8dda-ceb3-466e-8b63-b8ab58bec6d6")
-		(property "Reference" "#PWR0114"
-			(at 481.33 330.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+VCC_OUT"
-			(at 481.33 322.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 481.33 326.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 481.33 326.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 481.33 326.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "dff66213-c763-4562-94e9-1531b5e9531f")
-		)
-		(instances
-			(project "FitLensPCB"
-				(path "/4731aa35-71ac-4e45-b804-b66eeaa0e252"
-					(reference "#PWR0114")
 					(unit 1)
 				)
 			)
@@ -29853,6 +30165,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 417.83 344.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bf8ab3d1-82b0-446e-bffa-c7c761bdbf78")
+		(property "Reference" "C23"
+			(at 421.64 342.8999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uF"
+			(at 421.64 345.4399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+			(at 418.7952 347.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 417.83 344.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 417.83 344.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "279ebbce-0baa-4e3f-8ae9-3416097459b6")
+		)
+		(pin "2"
+			(uuid "019b1dd5-756a-4217-999e-36cee36ece08")
+		)
+		(instances
+			(project "FitLensPCB"
+				(path "/4731aa35-71ac-4e45-b804-b66eeaa0e252"
+					(reference "C23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 124.46 149.86 90)
 		(unit 1)
@@ -29975,6 +30357,70 @@
 			(project "FitLensPCB"
 				(path "/4731aa35-71ac-4e45-b804-b66eeaa0e252"
 					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 393.7 334.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c2967d05-5b36-4aa5-a9e7-ae0746c0f0ef")
+		(property "Reference" "#PWR0129"
+			(at 393.7 340.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 393.7 337.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 393.7 334.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 393.7 334.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 393.7 334.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d6269856-9b29-405d-8249-39ef79886a7b")
+		)
+		(instances
+			(project "FitLensPCB"
+				(path "/4731aa35-71ac-4e45-b804-b66eeaa0e252"
+					(reference "#PWR0129")
 					(unit 1)
 				)
 			)
@@ -30141,7 +30587,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 84.836 186.944 90)
 			(effects
 				(font
@@ -30704,76 +31150,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 328.93 318.77 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cbac00f5-ee2e-4eb9-823d-e6648fd942d2")
-		(property "Reference" "C21"
-			(at 332.74 317.4999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 332.74 320.0399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 329.8952 322.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 328.93 318.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 328.93 318.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "dfa5e9d5-239e-4c28-9c97-c9e41a995c83")
-		)
-		(pin "2"
-			(uuid "203aa355-5fd0-4906-b85c-da7a76a43b31")
-		)
-		(instances
-			(project "FitLensPCB"
-				(path "/4731aa35-71ac-4e45-b804-b66eeaa0e252"
-					(reference "C21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
 		(at 46.99 166.37 0)
 		(mirror y)
@@ -30799,7 +31175,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Cutom_PinHeaders:PinSocket_1x02_P2.54mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical"
 			(at 46.99 166.37 0)
 			(effects
 				(font
@@ -31228,76 +31604,6 @@
 			(project "FitLensPCB"
 				(path "/4731aa35-71ac-4e45-b804-b66eeaa0e252"
 					(reference "#PWR096")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 481.33 330.2 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d46b5124-e52d-4130-b3fd-230290a18f2b")
-		(property "Reference" "C25"
-			(at 485.14 328.9299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 485.14 331.4699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 482.2952 334.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 481.33 330.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 481.33 330.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d2f95439-5cfd-44cb-a0f1-8331d943bfee")
-		)
-		(pin "2"
-			(uuid "fd72157f-205f-4f58-9253-a979849ee11b")
-		)
-		(instances
-			(project "FitLensPCB"
-				(path "/4731aa35-71ac-4e45-b804-b66eeaa0e252"
-					(reference "C25")
 					(unit 1)
 				)
 			)
@@ -31827,7 +32133,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 327.66 278.13 0)
+		(at 379.73 318.77 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -31836,7 +32142,7 @@
 		(fields_autoplaced yes)
 		(uuid "daac34d5-c6c9-4543-a5fe-a3f43ab1e16a")
 		(property "Reference" "C12"
-			(at 331.47 276.8599 0)
+			(at 383.54 317.4999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31845,7 +32151,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 331.47 279.3999 0)
+			(at 383.54 320.0399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31853,8 +32159,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 328.6252 281.94 0)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+			(at 380.6952 322.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31863,7 +32169,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 327.66 278.13 0)
+			(at 379.73 318.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31872,7 +32178,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 327.66 278.13 0)
+			(at 379.73 318.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31987,7 +32293,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 483.5652 359.41 0)
 			(effects
 				(font
@@ -32459,7 +32765,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_MEC_5GSH9"
+		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_CK_KSC7xxJ"
 			(at 335.28 49.53 0)
 			(effects
 				(font
@@ -32652,204 +32958,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 328.93 322.58 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e70c7b2d-215f-4f6e-b6a1-4b513f6f73c9")
-		(property "Reference" "#PWR088"
-			(at 328.93 328.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 328.93 326.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 328.93 322.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 328.93 322.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 328.93 322.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e1c5dc9b-c965-4991-951e-b99280e398c1")
-		)
-		(instances
-			(project "FitLensPCB"
-				(path "/4731aa35-71ac-4e45-b804-b66eeaa0e252"
-					(reference "#PWR088")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 300.99 318.77 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "eb6bd2d7-1110-4a29-8b09-61c549a4064c")
-		(property "Reference" "C23"
-			(at 304.8 317.4999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 304.8 320.0399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 301.9552 322.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 300.99 318.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 300.99 318.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f53903b7-3cbf-46ac-9ed0-21725d90e11c")
-		)
-		(pin "2"
-			(uuid "61839eb6-6d55-429b-a469-c2b86778edc2")
-		)
-		(instances
-			(project "FitLensPCB"
-				(path "/4731aa35-71ac-4e45-b804-b66eeaa0e252"
-					(reference "C23")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 481.33 334.01 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ebb6d74f-3f62-47d3-b34a-4d0c1a526571")
-		(property "Reference" "#PWR0115"
-			(at 481.33 340.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 481.33 337.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 481.33 334.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 481.33 334.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 481.33 334.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "74bea631-e393-4023-8534-021a1c65ee03")
-		)
-		(instances
-			(project "FitLensPCB"
-				(path "/4731aa35-71ac-4e45-b804-b66eeaa0e252"
-					(reference "#PWR0115")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 123.19 152.4 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -32913,70 +33021,6 @@
 		)
 	)
 	(symbol
-		(lib_id "custom_power_symbols:+VCC_OUT")
-		(at 300.99 314.96 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "eff39334-5478-4ed8-b160-c2c86f6d3e36")
-		(property "Reference" "#PWR0107"
-			(at 300.99 318.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+VCC_OUT"
-			(at 300.99 311.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 300.99 314.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 300.99 314.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 300.99 314.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5fd53180-d5d9-4070-8caa-e22cbbd00225")
-		)
-		(instances
-			(project "FitLensPCB"
-				(path "/4731aa35-71ac-4e45-b804-b66eeaa0e252"
-					(reference "#PWR0107")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_US")
 		(at 330.2 180.34 0)
 		(unit 1)
@@ -33004,7 +33048,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 330.2 180.34 0)
 			(effects
 				(font
@@ -33107,6 +33151,70 @@
 			(project "FitLensPCB"
 				(path "/4731aa35-71ac-4e45-b804-b66eeaa0e252"
 					(reference "J9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "custom_power_symbols:+VCC_OUT")
+		(at 417.83 340.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f226248c-55db-4969-9d44-92331d93867a")
+		(property "Reference" "#PWR0104"
+			(at 417.83 344.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+VCC_OUT"
+			(at 417.83 336.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 417.83 340.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 417.83 340.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 417.83 340.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d105b237-cfbf-4e6d-a6d2-ef4ec69e5e0f")
+		)
+		(instances
+			(project "FitLensPCB"
+				(path "/4731aa35-71ac-4e45-b804-b66eeaa0e252"
+					(reference "#PWR0104")
 					(unit 1)
 				)
 			)
@@ -33338,7 +33446,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 369.2652 163.83 0)
 			(effects
 				(font
@@ -33512,70 +33620,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 294.64 53.34 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f7fd6bac-5018-4cbe-969b-48fc3f7d3eb2")
-		(property "Reference" "#PWR0104"
-			(at 294.64 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 294.64 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 294.64 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 294.64 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 294.64 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b030cc4e-0a74-4044-ae11-318c1d2cea0d")
-		)
-		(instances
-			(project "FitLensPCB"
-				(path "/4731aa35-71ac-4e45-b804-b66eeaa0e252"
-					(reference "#PWR0104")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Conn_01x03_Pin")
 		(at 453.39 201.93 180)
 		(unit 1)
@@ -33643,6 +33687,76 @@
 			(project ""
 				(path "/4731aa35-71ac-4e45-b804-b66eeaa0e252"
 					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 417.83 322.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f8639747-3632-4c62-8081-ebf8cc41c4f2")
+		(property "Reference" "C21"
+			(at 421.64 321.3099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 421.64 323.8499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+			(at 418.7952 326.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 417.83 322.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 417.83 322.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7353d276-9856-43d3-8007-80f9ffbd1660")
+		)
+		(pin "2"
+			(uuid "b0f71479-63b1-44f2-9f69-97abdcd213e0")
+		)
+		(instances
+			(project "FitLensPCB"
+				(path "/4731aa35-71ac-4e45-b804-b66eeaa0e252"
+					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -33740,7 +33854,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 425.1452 160.02 0)
 			(effects
 				(font
