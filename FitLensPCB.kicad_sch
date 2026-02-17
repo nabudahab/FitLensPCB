@@ -10193,7 +10193,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Switch:SW_MEC_5G"
+		(symbol "Switch:SW_Push"
 			(pin_numbers
 				(hide yes)
 			)
@@ -10213,7 +10213,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "SW_MEC_5G"
+			(property "Value" "SW_Push"
 				(at 0 -1.524 0)
 				(effects
 					(font
@@ -10230,7 +10230,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
+			(property "Datasheet" "~"
 				(at 0 5.08 0)
 				(effects
 					(font
@@ -10239,7 +10239,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "MEC 5G single pole normally-open tactile switch"
+			(property "Description" "Push button switch, generic, two pins"
 				(at 0 0 0)
 				(effects
 					(font
@@ -10257,16 +10257,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "SW*MEC*5G*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SW_MEC_5G_0_1"
+			(symbol "SW_Push_0_1"
 				(circle
 					(center -2.032 0)
 					(radius 0.508)
@@ -10316,7 +10307,7 @@
 				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54)
-					(name "A"
+					(name "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -10334,28 +10325,7 @@
 				(pin passive line
 					(at 5.08 0 180)
 					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "SW_MEC_5G_1_1"
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(hide yes)
-					(name "A"
+					(name "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -10363,25 +10333,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(hide yes)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -12061,7 +12012,7 @@
 	)
 	(rectangle
 		(start 209.55 17.78)
-		(end 271.78 66.04)
+		(end 273.05 66.04)
 		(stroke
 			(width 0)
 			(type dash)
@@ -12703,6 +12654,12 @@
 		(uuid "04f96f01-d05e-4dd1-9ad0-eb877915efc8")
 	)
 	(junction
+		(at 193.04 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "087b8d68-62cd-41a1-abd8-6dc1529cb916")
+	)
+	(junction
 		(at 405.13 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -12805,12 +12762,6 @@
 		(uuid "5c8bd72b-13c1-4534-9613-d70065dd9c66")
 	)
 	(junction
-		(at 148.59 57.15)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5db40fa7-5009-49f5-b0eb-5e014b88b05d")
-	)
-	(junction
 		(at 424.18 151.13)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -12833,6 +12784,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7c3f8509-ed12-462f-bccd-55511f6828c8")
+	)
+	(junction
+		(at 148.59 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7cc6de72-d8a3-4676-8a5b-154a68353917")
 	)
 	(junction
 		(at 186.69 93.98)
@@ -12917,12 +12874,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b65c6f3e-5dc6-4429-8bea-ff014d4d0f06")
-	)
-	(junction
-		(at 193.04 57.15)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b90ed600-9755-4f5f-9ede-80cd2851823f")
 	)
 	(junction
 		(at 148.59 43.18)
@@ -13021,7 +12972,7 @@
 		(uuid "fd55738f-135c-4e1d-b8bc-323d04ec6eea")
 	)
 	(no_connect
-		(at 168.91 62.23)
+		(at 171.45 63.5)
 		(uuid "06f854a8-1da1-4335-a048-5f4a7bfbc49e")
 	)
 	(no_connect
@@ -13284,16 +13235,6 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 46.99) (xy 193.04 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1be5b2e3-d6d2-4897-9e69-0b6048bcc80c")
-	)
-	(wire
-		(pts
 			(xy 19.05 250.19) (xy 34.29 250.19)
 		)
 		(stroke
@@ -13374,7 +13315,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 48.26) (xy 161.29 48.26)
+			(xy 186.69 48.26) (xy 163.83 48.26)
 		)
 		(stroke
 			(width 0)
@@ -13924,7 +13865,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 48.26) (xy 161.29 52.07)
+			(xy 163.83 48.26) (xy 163.83 53.34)
 		)
 		(stroke
 			(width 0)
@@ -14454,7 +14395,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 50.8) (xy 171.45 52.07)
+			(xy 173.99 50.8) (xy 173.99 53.34)
 		)
 		(stroke
 			(width 0)
@@ -14624,16 +14565,6 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 43.18) (xy 148.59 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "72eb712d-9068-45b0-b495-adc60a0996a5")
-	)
-	(wire
-		(pts
 			(xy 106.68 157.48) (xy 124.46 157.48)
 		)
 		(stroke
@@ -14694,7 +14625,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 50.8) (xy 171.45 50.8)
+			(xy 189.23 50.8) (xy 173.99 50.8)
 		)
 		(stroke
 			(width 0)
@@ -15001,16 +14932,6 @@
 			(type default)
 		)
 		(uuid "8f873dbb-254f-47d3-887c-67bc49f9cdd1")
-	)
-	(wire
-		(pts
-			(xy 193.04 57.15) (xy 193.04 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8f927e6c-0704-4590-98e8-815a8a9e04ab")
 	)
 	(wire
 		(pts
@@ -15394,7 +15315,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 57.15) (xy 158.75 57.15)
+			(xy 148.59 58.42) (xy 161.29 58.42)
 		)
 		(stroke
 			(width 0)
@@ -15844,6 +15765,16 @@
 	)
 	(wire
 		(pts
+			(xy 193.04 58.42) (xy 193.04 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8039b00-2bae-46e2-a019-1c972882cd70")
+	)
+	(wire
+		(pts
 			(xy 541.02 53.34) (xy 541.02 58.42)
 		)
 		(stroke
@@ -16184,6 +16115,16 @@
 	)
 	(wire
 		(pts
+			(xy 193.04 46.99) (xy 193.04 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbb730cf-2b06-40da-9d05-186bd165feda")
+	)
+	(wire
+		(pts
 			(xy 186.69 81.28) (xy 196.85 81.28)
 		)
 		(stroke
@@ -16211,6 +16152,16 @@
 			(type default)
 		)
 		(uuid "dd833a01-f960-4469-babe-c44d28601422")
+	)
+	(wire
+		(pts
+			(xy 148.59 58.42) (xy 148.59 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de0fe489-a8c9-4da1-870e-3272b932048f")
 	)
 	(wire
 		(pts
@@ -16254,7 +16205,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 57.15) (xy 193.04 57.15)
+			(xy 181.61 58.42) (xy 193.04 58.42)
 		)
 		(stroke
 			(width 0)
@@ -16554,7 +16505,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 57.15) (xy 148.59 59.69)
+			(xy 148.59 43.18) (xy 148.59 58.42)
 		)
 		(stroke
 			(width 0)
@@ -16792,7 +16743,7 @@
 		)
 		(uuid "223640cb-8599-485d-ae1b-05b9409b1661")
 	)
-	(label "QSPI_SIO3"
+	(label "QSPI_IO3"
 		(at 425.45 265.43 0)
 		(effects
 			(font
@@ -17102,7 +17053,7 @@
 		)
 		(uuid "8216d4b4-f7ef-4a74-9a4b-667dd1d35168")
 	)
-	(label "QSPI_SIO0"
+	(label "QSPI_IO0"
 		(at 425.45 257.81 0)
 		(effects
 			(font
@@ -17192,7 +17143,7 @@
 		)
 		(uuid "aaeae911-9937-4dd6-9a6e-2732d430c138")
 	)
-	(label "QSPI_SIO1"
+	(label "QSPI_IO1"
 		(at 425.45 260.35 0)
 		(effects
 			(font
@@ -17332,7 +17283,7 @@
 		)
 		(uuid "d62e73bc-b1b8-43c0-80a9-251a1713385a")
 	)
-	(label "QSPI_SIO2"
+	(label "QSPI_IO2"
 		(at 425.45 262.89 0)
 		(effects
 			(font
@@ -18278,72 +18229,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 368.3 163.83 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "121b5c89-39d0-443f-a4fe-8bd18d25483b")
-		(property "Reference" "#PWR071"
-			(at 368.3 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 368.3 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 368.3 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 368.3 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 368.3 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3f1d7590-486a-4424-a47a-5e9b8107f6c7")
-		)
-		(instances
-			(project "FitLensPCB"
-				(path "/4731aa35-71ac-4e45-b804-b66eeaa0e252"
-					(reference "#PWR071")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "FS8205A:FS8205A")
-		(at 168.91 57.15 270)
+		(at 171.45 58.42 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18351,7 +18238,7 @@
 		(dnp no)
 		(uuid "12921c91-ad71-44fb-b3d6-10e141b919e9")
 		(property "Reference" "Q1"
-			(at 158.75 50.8 90)
+			(at 161.29 52.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18360,7 +18247,7 @@
 			)
 		)
 		(property "Value" "FS8205A"
-			(at 158.75 53.34 90)
+			(at 161.29 54.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18368,8 +18255,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "footprints:SOP65P640X120-8N"
-			(at 168.91 57.15 0)
+		(property "Footprint" "FS8205A:SOP65P640X120-8N"
+			(at 171.45 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18379,7 +18266,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 168.91 57.15 0)
+			(at 171.45 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18388,7 +18275,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 168.91 57.15 0)
+			(at 171.45 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18398,7 +18285,7 @@
 			)
 		)
 		(property "MF" "Fortune Semiconductor"
-			(at 168.91 57.15 0)
+			(at 171.45 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18408,7 +18295,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "1.2mm"
-			(at 168.91 57.15 0)
+			(at 171.45 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18418,7 +18305,7 @@
 			)
 		)
 		(property "Package" "Package"
-			(at 168.91 57.15 0)
+			(at 171.45 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18428,7 +18315,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 168.91 57.15 0)
+			(at 171.45 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18438,7 +18325,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/FS8205A/Fortune+Semiconductor/view-part/?ref=eda"
-			(at 168.91 57.15 0)
+			(at 171.45 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18448,7 +18335,7 @@
 			)
 		)
 		(property "STANDARD" "IPC 7351B"
-			(at 168.91 57.15 0)
+			(at 171.45 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18458,7 +18345,7 @@
 			)
 		)
 		(property "PARTREV" "1.7"
-			(at 168.91 57.15 0)
+			(at 171.45 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18468,7 +18355,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/FS8205A/Fortune+Semiconductor/view-part/?ref=snap"
-			(at 168.91 57.15 0)
+			(at 171.45 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18478,7 +18365,7 @@
 			)
 		)
 		(property "MP" "FS8205A"
-			(at 168.91 57.15 0)
+			(at 171.45 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18488,7 +18375,7 @@
 			)
 		)
 		(property "Availability" "Not in stock"
-			(at 168.91 57.15 0)
+			(at 171.45 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18498,7 +18385,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Fortune Semiconductor"
-			(at 168.91 57.15 0)
+			(at 171.45 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18566,7 +18453,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:IC_TPS63020DSJR"
+		(property "Footprint" "TPS63020DSJR:IC_TPS63020DSJR"
 			(at 115.57 97.79 0)
 			(effects
 				(font
@@ -19098,7 +18985,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "nRF debug"
+		(property "Value" "STM Debug"
 			(at 518.16 111.7599 0)
 			(effects
 				(font
@@ -21427,6 +21314,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 335.28 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3edd3f91-25f9-430b-a307-070619319671")
+		(property "Reference" "SW1"
+			(at 335.28 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 335.28 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Library:BTN_CUSTOM"
+			(at 335.28 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 335.28 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 335.28 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b47de723-0255-46ea-be92-f9ce71f566fa")
+		)
+		(pin "2"
+			(uuid "13e9ca5b-739f-41e4-826a-971691e23291")
+		)
+		(instances
+			(project ""
+				(path "/4731aa35-71ac-4e45-b804-b66eeaa0e252"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+BATT")
 		(at 38.1 163.83 0)
 		(mirror y)
@@ -22794,7 +22749,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MX25L3233FM2I-08G:SOIC127P790X216-8N_MX25L3233FM2I-08G"
 			(at 447.04 275.59 0)
 			(effects
 				(font
@@ -23047,70 +23002,6 @@
 		)
 	)
 	(symbol
-		(lib_id "custom_power_symbols:+VCC_OUT")
-		(at 368.3 207.01 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "55521107-335c-4bd5-a6dc-aa3a9278359a")
-		(property "Reference" "#PWR067"
-			(at 368.3 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+VCC_OUT"
-			(at 368.3 203.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 368.3 207.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 368.3 207.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 368.3 207.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8d6cbaa2-ed12-4eb5-86e9-f92ce8cd7c74")
-		)
-		(instances
-			(project "FitLensPCB"
-				(path "/4731aa35-71ac-4e45-b804-b66eeaa0e252"
-					(reference "#PWR067")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Simulation_SPICE:PMOS")
 		(at 76.2 222.25 0)
 		(unit 1)
@@ -23138,7 +23029,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-723"
 			(at 81.28 219.71 0)
 			(effects
 				(font
@@ -23829,7 +23720,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:SOT23-6"
+		(property "Footprint" "DW01A:SOT95P280X145-6N"
 			(at 170.18 35.56 0)
 			(effects
 				(font
@@ -25371,7 +25262,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+		(property "Footprint" "MCP73831T-2ACI_OT:SOT95P280X145-5N"
 			(at 64.77 46.99 0)
 			(effects
 				(font
@@ -25616,76 +25507,6 @@
 			(project "FitLensPCB"
 				(path "/4731aa35-71ac-4e45-b804-b66eeaa0e252"
 					(reference "C14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 368.3 210.82 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "815be74c-d12f-46dd-b4a9-0a509c6d199d")
-		(property "Reference" "C15"
-			(at 372.11 209.5499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 372.11 212.0899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
-			(at 369.2652 214.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 368.3 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 368.3 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2d53a862-7e8d-431a-82a7-f66264ace03d")
-		)
-		(pin "2"
-			(uuid "df93a786-a87c-4b26-8838-7230410414c7")
-		)
-		(instances
-			(project "FitLensPCB"
-				(path "/4731aa35-71ac-4e45-b804-b66eeaa0e252"
-					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -28544,7 +28365,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-723"
 			(at 449.58 240.03 0)
 			(effects
 				(font
@@ -29707,70 +29528,6 @@
 		)
 	)
 	(symbol
-		(lib_id "custom_power_symbols:+VCC_OUT")
-		(at 368.3 156.21 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "bcc134b9-66d9-4317-8477-157cadb4c872")
-		(property "Reference" "#PWR070"
-			(at 368.3 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+VCC_OUT"
-			(at 368.3 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 368.3 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 368.3 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 368.3 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "27fd263b-7580-4ba8-88a0-2194aae08d17")
-		)
-		(instances
-			(project "FitLensPCB"
-				(path "/4731aa35-71ac-4e45-b804-b66eeaa0e252"
-					(reference "#PWR070")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 40.64 109.22 0)
 		(unit 1)
@@ -30421,70 +30178,6 @@
 			(project "FitLensPCB"
 				(path "/4731aa35-71ac-4e45-b804-b66eeaa0e252"
 					(reference "#PWR0129")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 368.3 214.63 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c36ee2fa-3b5f-436b-9ed6-86a5795455ab")
-		(property "Reference" "#PWR048"
-			(at 368.3 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 368.3 218.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 368.3 214.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 368.3 214.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 368.3 214.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0b696226-9e7d-492c-ab09-6fde4f327910")
-		)
-		(instances
-			(project "FitLensPCB"
-				(path "/4731aa35-71ac-4e45-b804-b66eeaa0e252"
-					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -32740,80 +32433,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_MEC_5G")
-		(at 335.28 54.61 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e6b7f3bb-abd2-49a0-b2c4-589225d32940")
-		(property "Reference" "SW1"
-			(at 335.28 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_MEC_5G"
-			(at 335.28 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_CK_KSC7xxJ"
-			(at 335.28 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488"
-			(at 335.28 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "MEC 5G single pole normally-open tactile switch"
-			(at 335.28 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "282ca66d-06f0-4fbc-a365-285ce88a277d")
-		)
-		(pin "3"
-			(uuid "a62b0fae-7416-4a53-9966-c0b6d11b0937")
-		)
-		(pin "1"
-			(uuid "d2cb869e-93c8-4bc0-b615-a66d0a4cee24")
-		)
-		(pin "2"
-			(uuid "0e59b92f-c5b3-4b40-8ea7-03714f51889a")
-		)
-		(instances
-			(project "FitLensPCB"
-				(path "/4731aa35-71ac-4e45-b804-b66eeaa0e252"
-					(reference "SW1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "74xGxx:74AHC1G08")
 		(at 355.6 105.41 180)
 		(unit 1)
@@ -33413,76 +33032,6 @@
 			(project "FitLensPCB"
 				(path "/4731aa35-71ac-4e45-b804-b66eeaa0e252"
 					(reference "#PWR0117")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 368.3 160.02 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f54f40d2-3d06-4b6f-809b-38980a7df609")
-		(property "Reference" "C27"
-			(at 372.11 158.7499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 372.11 161.2899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
-			(at 369.2652 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 368.3 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 368.3 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1fc1d76a-6f95-46ba-b5fc-546dfb0af368")
-		)
-		(pin "2"
-			(uuid "42a8af28-3628-4024-9df5-0f9533b9dbb1")
-		)
-		(instances
-			(project "FitLensPCB"
-				(path "/4731aa35-71ac-4e45-b804-b66eeaa0e252"
-					(reference "C27")
 					(unit 1)
 				)
 			)
